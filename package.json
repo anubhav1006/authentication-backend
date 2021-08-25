@@ -1,0 +1,31 @@
+{
+  "name": "authentication-backend",
+  "version": "0.0.1",
+  "description": "Authentication which can be extended to various projects",
+  "main": "dist/index.js",
+    "scripts": {
+        "dev": "SET NODE_ENV=development && nodemon",
+        "build": "rimraf dist && tsc",
+        "start": "SET NODE_ENV=production && node ."
+    },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anubhav1006/authentication-backend.git"
+  },
+  "keywords": [
+    "auth"
+  ],
+  "author": "Anubhav Jha",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/anubhav1006/authentication-backend/issues"
+  },
+  "homepage": "https://github.com/anubhav1006/authentication-backend#readme",
+  "devDependencies": {
+    "@types/node": "^16.7.1",
+    "nodemon": "^2.0.12",
+    "rimraf": "^3.0.2",
+    "ts-node": "^10.2.1",
+    "typescript": "^4.3.5"
+  }
+}
